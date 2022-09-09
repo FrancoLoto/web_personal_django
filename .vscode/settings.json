@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "/Users/francoloto/.local/share/virtualenvs/CursoDjango-uakBVDw_/python.exe", 
+    "python.linting.enabled": true,  
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintEnabled": false,
+    "python.languageServer": "Pylance",
+    "python.linting.pycodestyleEnabled": true, 
+    "python.analysis.useImportHeuristic": true,    
+    "python.linting.pycodestyleArgs": ["--ignore=E501,E226,E116"],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200"
+    ],
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--load-plugins",
+        "pylint_django"
+    ]
+}
